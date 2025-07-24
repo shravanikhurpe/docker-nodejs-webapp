@@ -35,7 +35,7 @@ node -v # Should print "v22.17.0".
 npm -v # Should print "10.9.2".
 ```
 ```
-git clone https://github.com/atulkamble/docker-nodejs-webapp.git
+git clone https://github.com/shravanikhurpe/docker-nodejs-webapp.git
 cd docker-nodejs-webapp
 node index.js
 
@@ -76,7 +76,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello from Dockerized Node.js App 🚀');
+  res.send('Hello this is a Dockerized Node.js App 🚀');
 });
 
 app.listen(PORT, () => {
